@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Fly Away</string>
+    <string name="header_image">Business Logo</string>
+    <string name="motto">Rent your own drone hat and never walk again!</string>
+    <string name="description_of_the_business">If you are tired of walking you should contact us!  This is great oportunity for everyone to not walk ever again.</string>
+    <string name="where_to_find_us">Where to find us:</string>
+    <string name="address">Poland, 19-300 Ełk,  Beautiful Street 8/10</string>
+    <string name="contact_us">Contact us at dronehats@droneshoes.com or Give us a call: 87 999 00 99</string>
+</resources>
