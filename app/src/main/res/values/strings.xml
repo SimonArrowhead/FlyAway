@@ -6,4 +6,6 @@
     <string name="where_to_find_us">Where to find us:</string>
     <string name="address">Poland, 19-300 Ełk,  Beautiful Street 8/10</string>
     <string name="contact_us">Contact us at dronehats@droneshoes.com or Give us a call: 87 999 00 99</string>
+    <string name="number">1000</string>
+    <string name="buttonTest">Click here to test</string>
 </resources>

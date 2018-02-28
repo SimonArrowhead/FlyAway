@@ -8,6 +8,7 @@
     tools:context="com.example.matrix.flyaway.MainActivity">
 
     <LinearLayout
+        android:id="@+id/companyInfo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -30,13 +31,11 @@
             android:textAllCaps="true" />
 
         <TextView
+            style="@style/TextViewNormal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:text="@string/description_of_the_business"
-            android:textSize="14sp" />
+            android:text="@string/description_of_the_business" />
 
         <TextView
             style="@style/TextViewTitle"
@@ -45,22 +44,42 @@
             android:text="@string/where_to_find_us" />
 
         <TextView
+            style="@style/TextViewNormal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:text="@string/address"
-            android:textSize="14sp" />
+            android:text="@string/address" />
 
         <TextView
+            android:id="@+id/contactUs"
+            style="@style/TextViewNormal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:text="@string/contact_us"
-            android:textSize="18sp" />
+            android:text="@string/contact_us" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/testButton"
+                android:layout_marginLeft="30dp"
+                android:layout_marginStart="30dp"
+                android:onClick="count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/buttonTest"/>
+            <TextView
+                style="@style/TextViewNormal"
+                android:id="@+id/test"
+                android:text="@string/number"
+                android:layout_marginTop="14dp"
+                android:layout_toRightOf="@id/testButton"
+                android:layout_toEndOf="@id/testButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
 
     </LinearLayout>
+
 </ScrollView>
